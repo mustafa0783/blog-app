@@ -1,0 +1,32 @@
+{
+  "name": "blog-app",
+  "version": "1.0.0",
+  "description": "Full Stack Blog Application using Node.js, Express, EJS, and MySQL",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "ejs",
+    "mysql",
+    "blog-app"
+  ],
+  "author": "Mustafa Dawood",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "express-session": "^1.18.0",
+    "mysql2": "^3.11.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
